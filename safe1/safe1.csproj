@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminstrator.aspx" />
     <Content Include="assets\css\amaze.css" />
     <Content Include="assets\css\bootstrap-datetimepicker.css" />
     <Content Include="assets\css\bootstrap.min.css" />
@@ -142,6 +143,13 @@
     </Compile>
     <Compile Include="administrator.Master.designer.cs">
       <DependentUpon>administrator.Master</DependentUpon>
+    </Compile>
+    <Compile Include="adminstrator.aspx.cs">
+      <DependentUpon>adminstrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminstrator.aspx.designer.cs">
+      <DependentUpon>adminstrator.aspx</DependentUpon>
     </Compile>
     <Compile Include="community.Master.cs">
       <DependentUpon>community.Master</DependentUpon>

@@ -97,10 +97,10 @@
 <!-- TagsInput Plugin -->
 <script src="assets/vendors/jquery.tagsinput.js"></script>
 <!-- Material Dashboard javascript methods -->
-<script src="assets/js/amaze.js"></script>
+<%--<script src="assets/js/amaze.js"></script>--%>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="assets/js/demo.js"></script>
-
+        <script src="assets/js/amaze.js"></script>
 <script src="assets/js/charts/flot-charts.js"></script>
 <script src="assets/js/charts/chartjs-charts.js"></script>
 
@@ -110,7 +110,8 @@
 		demo.initVectorMap();
 		demo.initCirclePercentage();
 
-	});
+    });
+
 </script>
         </div>
     </form>

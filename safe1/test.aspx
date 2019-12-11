@@ -125,7 +125,7 @@
                 <div class="container-fluid">
                     <div class="navbar-minimize">
                         <button id="minimizeSidebar" class="btn btn-round btn-white btn-fill btn-just-icon">
-							<i class="ti-arrow-left"></i>
+							<i class="ti-arrow-left" aria-invalid="true"></i>
                         </button>
                     </div>
                     <div class="navbar-header">

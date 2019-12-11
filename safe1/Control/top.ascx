@@ -2,7 +2,8 @@
 <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-minimize">
-                        <button id="minimizeSidebar" class="btn btn-round btn-white btn-fill btn-just-icon">
+                        <button type="button"  id="minimizeSidebar" class="btn btn-round btn-white btn-fill btn-just-icon" runat="server"
+                               OnClientClick="return compareprice()">
 							<i class="ti-arrow-left"></i>
                         </button>
                     </div>
