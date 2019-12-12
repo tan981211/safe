@@ -11,7 +11,12 @@ namespace safe1.Control
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        protected void Unnamed_ServerClick(object sender, EventArgs e)
+        {
+            
         }
     }
 }

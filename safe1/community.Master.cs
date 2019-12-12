@@ -11,7 +11,13 @@ namespace safe1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (IsPostBack)
+            {
+                if (Request.Cookies["Email"] == null)
+                {
+                    Response.Redirect("login.aspx");
+                }
+            }
         }
     }
 }
