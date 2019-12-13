@@ -5,13 +5,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace safe1.Control
+namespace safe1
 {
-    public partial class communityIndexPage_LatestNotice : System.Web.UI.UserControl
+    public partial class communityImportantInformationPublish_UserPublish : System.Web.UI.Page
     {
-        public string latestNotice_Title;
-        public string latestNotice_Text;
         protected void Page_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void Unnamed_ServerClick(object sender, EventArgs e)
         {
 
         }
