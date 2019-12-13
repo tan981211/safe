@@ -13,7 +13,7 @@ namespace safe1.Control
         public string latestNotice_Text;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Page.DataBind();
         }
     }
 }

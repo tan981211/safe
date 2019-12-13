@@ -7,8 +7,8 @@
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <div class="panel panel-default col-sm-11" style="margin:15px 30px 15px 30px">
-    <div class="panel-heading">
-        <h3 class="panel-title">
+    <div class="panel-heading" style="background:#364150">
+        <h3 class="panel-title" style="color:white">
             <%#releaseCard_Title %>
         </h3>
     </div>

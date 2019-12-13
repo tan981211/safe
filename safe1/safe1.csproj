@@ -65,6 +65,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="administratorAnnouncementPage.aspx" />
+    <Content Include="administratorInformationPublish.aspx" />
+    <Content Include="administratorInformationPublish_Examine.aspx" />
+    <Content Include="administratorInformationPublish_UpdateNotice.aspx" />
     <Content Include="adminstrator.aspx" />
     <Content Include="assets\css\amaze.css" />
     <Content Include="assets\css\bootstrap-datetimepicker.css" />
@@ -139,6 +143,7 @@
     <Content Include="Control\communityIndexPage_Copyright.ascx" />
     <Content Include="Control\communityIndexPage_LatestNotice.ascx" />
     <Content Include="Control\communityIndexPage_NoticeList.ascx" />
+    <Content Include="Control\Information.ascx" />
     <Content Include="Control\left.ascx" />
     <Content Include="Control\left2.ascx" />
     <Content Include="Control\releaseCard.ascx" />
@@ -256,6 +261,34 @@
     <Compile Include="administrator.Master.designer.cs">
       <DependentUpon>administrator.Master</DependentUpon>
     </Compile>
+    <Compile Include="administratorAnnouncementPage.aspx.cs">
+      <DependentUpon>administratorAnnouncementPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administratorAnnouncementPage.aspx.designer.cs">
+      <DependentUpon>administratorAnnouncementPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administratorInformationPublish.aspx.cs">
+      <DependentUpon>administratorInformationPublish.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administratorInformationPublish.aspx.designer.cs">
+      <DependentUpon>administratorInformationPublish.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administratorInformationPublish_Examine.aspx.cs">
+      <DependentUpon>administratorInformationPublish_Examine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administratorInformationPublish_Examine.aspx.designer.cs">
+      <DependentUpon>administratorInformationPublish_Examine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administratorInformationPublish_UpdateNotice.aspx.cs">
+      <DependentUpon>administratorInformationPublish_UpdateNotice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administratorInformationPublish_UpdateNotice.aspx.designer.cs">
+      <DependentUpon>administratorInformationPublish_UpdateNotice.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminstrator.aspx.cs">
       <DependentUpon>adminstrator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -318,6 +351,13 @@
     </Compile>
     <Compile Include="Control\communityIndexPage_NoticeList.ascx.designer.cs">
       <DependentUpon>communityIndexPage_NoticeList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Information.ascx.cs">
+      <DependentUpon>Information.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Information.ascx.designer.cs">
+      <DependentUpon>Information.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\left.ascx.cs">
       <DependentUpon>left.ascx</DependentUpon>

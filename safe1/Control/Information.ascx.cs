@@ -7,10 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace safe1.Control
 {
-    public partial class communityImportantInformationPublish_Input : System.Web.UI.UserControl
+    public partial class Information : System.Web.UI.UserControl
     {
-        public string input_Title_Value;
-        public string input_Text_Value;
+        public string information_Fixed;
+        public string information_User;
         protected void Page_Load(object sender, EventArgs e)
         {
             Page.DataBind();

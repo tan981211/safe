@@ -5,15 +5,18 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace safe1.Control
+namespace safe1
 {
-    public partial class communityImportantInformationPublish_Input : System.Web.UI.UserControl
+    public partial class administratorAnnouncementPage : System.Web.UI.Page
     {
-        public string input_Title_Value;
-        public string input_Text_Value;
         protected void Page_Load(object sender, EventArgs e)
         {
-            Page.DataBind();
+
+        }
+
+        protected void Unnamed_ServerClick(object sender, EventArgs e)
+        {
+
         }
     }
 }

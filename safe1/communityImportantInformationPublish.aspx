@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/community.Master" AutoEventWireup="true" CodeBehind="communityImportantInformationPublish.aspx.cs" Inherits="safe1.communityImportantInformationPublish" %>
 
-
 <%@ Register src="Control/communityImportantInformationPublish_Input.ascx" tagname="communityImportantInformationPublish_Input" tagprefix="uc1" %>
 <%@ Register src="Control/releaseCard.ascx" tagname="releaseCard" tagprefix="uc2" %>
 
