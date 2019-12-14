@@ -6,7 +6,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div>
+    <div class="container">
         <uc2:communityIndexPage_LatestNotice ID="communityIndexPage_LatestNotice1" runat="server" />
         <div style="margin:auto">
             <uc1:communityIndexPage_NoticeList ID="communityIndexPage_NoticeList1" runat="server" />

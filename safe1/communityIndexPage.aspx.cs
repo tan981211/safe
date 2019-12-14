@@ -17,7 +17,7 @@ namespace safe1
             communityIndexPage_NoticeList1.addLiText("nihao");
             communityIndexPage_NoticeList1.addLiText("csdsd");
             communityIndexPage_NoticeList1.addLiText("nfdfdihao");
-            communityIndexPage_NoticeList1.addLiText("nihggggsdasdasdasdsadasdsdao");
+            communityIndexPage_NoticeList1.addLiText("nihggggsdasdasdasdssdasdadsdasdasdasdasdasdasdasdasdadasdasdasdsadadasdsdao");
             communityIndexPage_NoticeList1.addLiText("nifdfsdsdshao");
             communityIndexPage_NoticeList1.addLiText("nihfdfhgjguao");
             communityIndexPage_NoticeList2.addNewTitle("业主信息发布栏");

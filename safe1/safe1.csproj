@@ -130,6 +130,8 @@
     <Content Include="assets\vendors\perfect-scrollbar.jquery.min.js" />
     <Content Include="assets\vendors\sweetalert\css\sweetalert2.min.css" />
     <Content Include="assets\vendors\sweetalert\js\sweetalert2.min.js" />
+    <Content Include="communityForum.aspx" />
+    <Content Include="communityForum_TopicContent.aspx" />
     <Content Include="communityImportantInformationPublish.aspx" />
     <Content Include="communityImportantInformationPublish_UserPublish.aspx" />
     <Content Include="communityIndexPage.aspx" />
@@ -143,6 +145,8 @@
     <Content Include="Control\communityIndexPage_Copyright.ascx" />
     <Content Include="Control\communityIndexPage_LatestNotice.ascx" />
     <Content Include="Control\communityIndexPage_NoticeList.ascx" />
+    <Content Include="Control\forumTowntalk.ascx" />
+    <Content Include="Control\forumUserPublished.ascx" />
     <Content Include="Control\Information.ascx" />
     <Content Include="Control\left.ascx" />
     <Content Include="Control\left2.ascx" />
@@ -303,6 +307,20 @@
     <Compile Include="community.Master.designer.cs">
       <DependentUpon>community.Master</DependentUpon>
     </Compile>
+    <Compile Include="communityForum.aspx.cs">
+      <DependentUpon>communityForum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="communityForum.aspx.designer.cs">
+      <DependentUpon>communityForum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="communityForum_TopicContent.aspx.cs">
+      <DependentUpon>communityForum_TopicContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="communityForum_TopicContent.aspx.designer.cs">
+      <DependentUpon>communityForum_TopicContent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="communityImportantInformationPublish.aspx.cs">
       <DependentUpon>communityImportantInformationPublish.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -351,6 +369,20 @@
     </Compile>
     <Compile Include="Control\communityIndexPage_NoticeList.ascx.designer.cs">
       <DependentUpon>communityIndexPage_NoticeList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\forumTowntalk.ascx.cs">
+      <DependentUpon>forumTowntalk.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\forumTowntalk.ascx.designer.cs">
+      <DependentUpon>forumTowntalk.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\forumUserPublished.ascx.cs">
+      <DependentUpon>forumUserPublished.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\forumUserPublished.ascx.designer.cs">
+      <DependentUpon>forumUserPublished.ascx</DependentUpon>
     </Compile>
     <Compile Include="Control\Information.ascx.cs">
       <DependentUpon>Information.ascx</DependentUpon>

@@ -23,8 +23,5 @@
         <a href="#" runat="server" onserverclick="Unnamed_ServerClick2"><uc2:releaseCard runat="server" ID="releaseCard2" /></a>
 	</div>
 </div>
-<%--        <button class="btn btn-default col-sm-11" style="margin:15px 30px 15px 30px" runat="server" onserverclick="Unnamed_ServerClick">发布公告</button>
-        
-        <a href="#" runat="server" onserverclick="Unnamed_ServerClick1"><uc1:releaseCard ID="releaseCard1" runat="server" /></a>
-        --%>
+
 </asp:Content>
